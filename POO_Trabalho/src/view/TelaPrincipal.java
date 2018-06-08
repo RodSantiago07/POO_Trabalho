@@ -1,6 +1,6 @@
-package poo_trabalho;
+package view;
 
-public class POO_Trabalho {
+public class TelaPrincipal {
 
     public static void main(String[] args) {
         
