@@ -1,45 +1,45 @@
+package classes;
 
 import java.util.Date;
 
-public class clsProposta implements iProposta {
+public class clsProposta implements interfaces.iProposta {
 
-	private int diasEntrega;
+    private int diasEntrega;
+    private double precoTotal;
+    private String descricao;
 
-	private double precoTotal;
+    public Date calculaPrazo(int diasEntrega) {
+        //
+        return null;
+    }
 
-	private String descricao;
+    public int getDiasEntrega() {
+        return diasEntrega;
+    }
 
-	public Date calculaPrazo(int diasEntrega) {
-		return null;
-	}
+    public void setDiasEntrega(int diasEntrega) {
+        this.diasEntrega = diasEntrega;
+    }
 
-	public int getDiasEntrega() {
-		return 0;
-	}
+    public double getPrecoTotal() {
+        return precoTotal;
+    }
 
-	public double getPrecoTotal() {
-		return 0;
-	}
+    public void setPrecoTotal(double precoTotal) {
+        this.precoTotal = precoTotal;
+    }
 
-	public String getDescricao() {
-		return null;
-	}
+    public String getDescricao() {
+        return descricao;
+    }
 
-	public void setDiasEntrega(int diasEntrega) {
-
-	}
-
-	public void setPrecoTotal(double precoTotal) {
-
-	}
-
-	public void setDescricao(String descricao) {
-
-	}
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
 
     @Override
     public void calculaPrazo() {
-        
+
     }
 
 }

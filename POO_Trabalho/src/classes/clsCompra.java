@@ -1,84 +1,80 @@
+package classes;
 
 import java.util.Date;
 
 public class clsCompra {
 
 	private Date dataEntrega;
-
 	private double valorTotal;
-
 	private String formaPagamento;
-
 	private int status;
-
 	private int idFornecedor;
-
 	private int notaAvaliacao;
-
 	private String descricaoAvaliacao;
 
-	public void enviarEmailCompra(int emailFornecedor) {
-
+	public void enviarEmailCompra(String emailFornecedor) {
+            //Fazer metodo
 	}
 
 	public double aplicaNotaCompra(int nota, String nomeFornec) {
-		return 0;
+            //
+            return 0;
 	}
 
 	public Date getDataEntrega() {
-		return null;
+            return dataEntrega;
 	}
 
 	public double getValorTotal() {
-		return 0;
+            return valorTotal;
 	}
 
 	public String getFormaPagamento() {
-		return null;
+            return formaPagamento;
 	}
 
 	public int getStatus() {
-		return 0;
+            return status;
 	}
 
 	public int getIidFornecedor() {
-		return 0;
+            return idFornecedor;
 	}
 
 	public int getNotaAvaliacao() {
-		return 0;
+            return notaAvaliacao;
 	}
 
 	public String getDescricaoAvaliacao() {
-		return null;
+            return descricaoAvaliacao;
 	}
 
 	public void setDataEntrega(Date dataEntrega) {
-
+            this.dataEntrega = dataEntrega;
 	}
 
 	public void setValorTotal(double valorTotal) {
-
+            this.valorTotal = valorTotal;
 	}
 
 	public void setFormaPagamento(String formaPagamento) {
-
+            this.formaPagamento = formaPagamento;
 	}
 
 	public void setStatus(int status) {
-
+            this.status = status;
 	}
 
 	public void setIidFornecedor(int idFornecedor) {
-
+            //this.idFornecedor -- Auto increment
 	}
 
 	public void setNotaAvaliacao(int notaAvaliacao) {
-
+            this.notaAvaliacao = notaAvaliacao;
 	}
 
 	public void setDescricaoAvaliacao(String descricaoAvaliacao) {
-
+            this.descricaoAvaliacao = descricaoAvaliacao;
 	}
 
 }
