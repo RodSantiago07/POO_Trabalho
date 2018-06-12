@@ -1,7 +1,10 @@
+package view;
+
 import java.awt.List;
 import java.util.ArrayList;
 import javax.swing.DefaultListModel;
 import javax.swing.JOptionPane;
+import classes.clsFornecedor;
 
 public class telaListagemFornecedores extends javax.swing.JFrame {
 

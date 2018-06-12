@@ -143,5 +143,4 @@ public class TelaPrincipal extends JFrame{
 		contentPane.add(btnCompras);
 	}
     
-    
 }
