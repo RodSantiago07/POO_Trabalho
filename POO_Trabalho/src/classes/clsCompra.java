@@ -9,7 +9,7 @@ public class clsCompra {
 	private String formaPagamento;
 	private int status;
 	private int idFornecedor;
-	private int notaAvaliacao;
+	private String notaAvaliacao;
 	private String descricaoAvaliacao;
 
 	public void enviarEmailCompra(String emailFornecedor) {
@@ -41,7 +41,7 @@ public class clsCompra {
             return idFornecedor;
 	}
 
-	public int getNotaAvaliacao() {
+	public String getNotaAvaliacao() {
             return notaAvaliacao;
 	}
 
@@ -69,7 +69,7 @@ public class clsCompra {
             //this.idFornecedor -- Auto increment
 	}
 
-	public void setNotaAvaliacao(int notaAvaliacao) {
+	public void setNotaAvaliacao(String notaAvaliacao) {
             this.notaAvaliacao = notaAvaliacao;
 	}
 
